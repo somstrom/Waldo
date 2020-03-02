@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+   <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+   <meta name="format-detection" content="telephone=no">
+   <meta name="msapplication-tap-highlight" content="no">
+   <!-- <link rel="stylesheet" type="text/css" href="css/index.css"> -->
+   <link rel="stylesheet" type="text/css" href="css/formular.css">
+   <title>WALDO</title>
+   <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+   <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+   <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+
+</head>
+
+
+<body id="page-top">
+   <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+      <div class="container"><a class="navbar-brand js-scroll-trigger" id="online-user" href="#page-top"></a><button
+            data-toggle="collapse" data-target="#navbarResponsive"
+            class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded"
+            aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+               class="fa fa-bars"></i></button>
+         <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="nav navbar-nav ml-auto">
+               <li class="nav-item mx-0 mx-lg-1" role="presentation"><a
+                     class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">HOME</a></li>
+               <!-- <li class="nav-item mx-0 mx-lg-1" role="presentation"><a
+                     class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="map.html">MY LOCATION</a></li> -->
+               <li class="nav-item mx-0 mx-lg-1" role="presentation"><a
+                     class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="history.html">FAVORITES</a></li>
+               <!-- <li class="nav-item mx-0 mx-lg-1" role="presentation"><a
+                     class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="settings.html">SETTINGS</a></li> -->
+               <li class="nav-item mx-0 mx-lg-1" id="login" role="presentation"><a
+                     class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="login.html">LOGIN</a></li>
+               <li class="nav-item mx-0 mx-lg-1" id="logout" role="presentation"><a
+                     class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">LOGOUT</a></li>
+               <li class="nav-item mx-0 mx-lg-1" role="presentation"><a
+                     class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                     href="registration.html">REGISTRATION</a></li>
+            </ul>
+         </div>
+      </div>
+   </nav>
+   <header class="masthead bg-primary text-white text-center">
+      <div class="container"><img class="img-fluid d-block mx-auto mb-5" src="assets/img/profile.png">
+         <h1>Waldo</h1>
+         <hr class="star-light">
+         <h2 class="font-weight-light mb-0">Places Around You</h2>
+      </div>
+   </header>
+   <!-- <section id="portfolio" class="portfolio"> -->
+
+   <div class="register-photo">
+      <div class="form-container">
+         <div class="image-holder"></div>
+         <form action="results.html" method="get" id="form" name="myForm">
+            <h2 class="text-center">What are you searching for?</h2>
+            <div class="form-group"><input class="form-control" type="number" id="distance" name="distance"
+                  placeholder="Distance" onkeypress="return isNumberKey(event)" required></div>
+            <!-- <div class="form-group"><input class="form-control" type="password" name="password"
+                               placeholder="Password"></div> -->
+            <div class="form-group"><select id="type" name="type" class="form-control" placeholder="Place">
+                  <option value="coffe">coffee</option>
+                  <option value="restaurant">restaurant</option>
+                  <option value="snack-fast-food">snack-fast-food</option>
+                  <option value="bar-pub">bar-pub</option>
+                  <option value="cinema">cinema</option>
+                  <option value="theatre-music-culture">theatre-culture</option>
+                  <option value="casino">casino</option>
+                  <option value="transport">transport</option>
+                  <option value="hotel">hotel</option>
+                  <option value="mall">mall</option>
+                  <option value="bookshop">bookshop</option>
+                  <option value="pharmacy">pharmacy</option>
+                  <option value="electronics-shop">electronics-shop</option>
+                  <option value="post-office">post-office</option>
+                  <option value="petrol-station">petrol-station</option>
+                  <option value="hospital">hospital</option>
+                  <option value="library">library</option>
+                  <option value="zoo">zoo</option>
+               </select></div>
+            <div class="form-group"><button class="btn btn-primary btn-block" type="submit"
+                  style="background-color: rgb(24,188,156);">Search.</button></div>
+         </form>
+      </div>
+   </div>
+
+   <!-- </section> -->
+   <section id="about" class="bg-primary text-white mb-0">
+      <div class="container">
+         <h2 class="text-uppercase text-center text-white">About</h2>
+         <hr class="star-light mb-5">
+         <div class="row">
+            <div class="col-lg-4 ml-auto">
+               <p class="lead">Waldo is a free place finder for everyone. You can find what you want and let him to
+                  navigate you there.</p>
+            </div>
+            <div class="col-lg-4 mr-auto">
+               <p class="lead">No places around you? Change radius to get more places!</p>
+            </div>
+         </div>
+         <div class="text-center mt-4"></div>
+      </div>
+   </section>
+
+   <div class="d-lg-none scroll-to-top position-fixed rounded"><a
+         class="d-block js-scroll-trigger text-center text-white rounded" href="#page-top"><i
+            class="fa fa-chevron-up"></i></a></div>
+
+   <script src="assets/js/jquery.min.js"></script>
+   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+   <script src="assets/js/freelancer.js"></script>
+
+
+
+   <!-- Pôvodný WALDO -->
+   <!-- <div id="waldo-bar">
+      <h2>WALDO</h2>
+   </div>
+
+   <div class="form-style-2">
+      <div class="form-style-2-heading">Provide your information</div>
+      <form action="results.html" method="get" id="form" name="myForm">
+         <label for="field2">
+            <span>Distance in Km<span class="required"></span></span>
+            <input type="text" class="input-field" name="distance" value="" />
+         </label>
+         <label for="field4">
+            <span>Type</span>
+            <select id="type" name="type" class="select-field">
+               <option value="coffe">coffee</option>
+               <option value="restaurant">restaurant</option>
+               <option value="snack-fast-food">snack-fast-food</option>
+               <option value="bar-pub">bar-pub</option>
+               <option value="cinema">cinema</option>
+               <option value="theatre-music-culture">theatre-culture</option>
+               <option value="casino">casino</option>
+               <option value="transport">transport</option>
+               <option value="hotel">hotel</option>
+               <option value="mall">mall</option>
+               <option value="bookshop">bookshop</option>
+               <option value="pharmacy">pharmacy</option>
+               <option value="electronics-shop">electronics-shop</option>
+               <option value="post-office">post-office</option>
+               <option value="petrol-station">petrol-station</option>
+               <option value="hospital">hospital</option>
+               <option value="library">library</option>
+               <option value="zoo">zoo</option>
+            </select>
+         </label>
+         <label>
+            <span> </span>
+            <input id="button" type="submit" value="Submit" />
+         </label>
+      </form>
+   </div> -->
+
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/parse/2.7.1/parse.min.js"></script>
+   <script>
+      Parse.serverURL = 'https://parseapi.back4app.com'; // This is your Server URL
+      Parse.initialize(
+         'ZKBikvhcdN24OAHvfIj9HllY34xZ9jH0EZNWfQSB', // This is your Application ID
+         'nHsY6FAjlnNEa2WviuaCnWAPeLlPAHSXpcK0am2K' // This is your Javascript key
+      );
+   </script>
+
+   <script src="js/logout.js"></script>
+   <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+   <script type="text/javascript" src="cordova.js"></script>
+   <!-- <script type="text/javascript" src="js/results.js"></script> -->
+   <script type="text/javascript" src="js/index.js"></script> 
+
+
+</body>
+
+</html>

@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <!-- <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;"> -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="msapplication-tap-highlight" content="no">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <!-- <link rel="stylesheet" type="text/css" href="css/formular.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/navbar.css"> -->
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/Registration-Form-with-Photo.css">
+
+
+    <title>Results</title>
+
+</head>
+
+<body id="page-top" onload="onLoad()">
+    <nav class="navbar navbar-light navbar-expand-lg fixed-top bg-secondary text-uppercase" id="mainNav">
+        <div class="container"><a class="navbar-brand js-scroll-trigger" id="online-user" href="#page-top"></a><button
+              data-toggle="collapse" data-target="#navbarResponsive"
+              class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded"
+              aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><i
+                 class="fa fa-bars"></i></button>
+           <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="nav navbar-nav ml-auto">
+                 <li class="nav-item mx-0 mx-lg-1" role="presentation"><a
+                       class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">HOME</a></li>
+                 <!-- <li class="nav-item mx-0 mx-lg-1" role="presentation"><a
+                       class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="map.html">MY LOCATION</a></li> -->
+                 <li class="nav-item mx-0 mx-lg-1" role="presentation"><a
+                       class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="history.html">FAVORITES</a></li>
+                 <!-- <li class="nav-item mx-0 mx-lg-1" role="presentation"><a
+                       class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="settings.html">SETTINGS</a></li> -->
+                 <li class="nav-item mx-0 mx-lg-1" id="login" role="presentation"><a
+                       class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="login.html">LOGIN</a></li>
+                 <li class="nav-item mx-0 mx-lg-1" id="logout" role="presentation"><a
+                       class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="index.html">LOGOUT</a></li>
+                 <li class="nav-item mx-0 mx-lg-1" role="presentation"><a
+                       class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger"
+                       href="registration.html">REGISTRATION</a></li>
+                       <li class="nav-item mx-0 mx-lg-1" role="presentation" style="display:flex"><a
+                        href="index-sk.html"><img class="mr-3" src="img/slovakia.png"
+                              style="width:50px;height: 30px;"></a><img src="img/UK_USA.png"
+                        style="width:50px;height: 30px; border: solid 3px #4CAF50"></li>
+              </ul>
+           </div>
+        </div>
+     </nav>
+
+    <div id="result"></div>
+
+    <div id="box-main"></div>
+
+    <p id="result-no-places" style="position:fixed;left:50%; top:50%;text-align: center; transform: translate(-50%,-50%); color:red;">No places around you! Change radius to get more places!</p></div>
+
+
+    <div class="d-lg-none scroll-to-top position-fixed rounded"><a
+        class="d-block js-scroll-trigger text-center text-white rounded" href="#page-top"><i
+            class="fa fa-chevron-up"></i></a></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parse/2.7.1/parse.min.js"></script>
+
+    <script>
+        Parse.serverURL = 'https://parseapi.back4app.com'; // This is your Server URL
+        Parse.initialize(
+            'ZKBikvhcdN24OAHvfIj9HllY34xZ9jH0EZNWfQSB', // This is your Application ID
+            'nHsY6FAjlnNEa2WviuaCnWAPeLlPAHSXpcK0am2K' // This is your Javascript key
+        );
+    </script>
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="assets/js/freelancer.js"></script>
+
+    <script type="text/javascript" src="js/jquery-3.4.1.js"></script>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="cordova.js"></script>
+
+
+    <!-- <script type="text/javascript" src="js/index.js"></script> -->
+    <script type="text/javascript" src="js/results.js"></script>
+    <!-- <script src="js/logout.js"></script> -->
+    <script src="js/logout.js"></script>
+
+</body>
+
+</html>

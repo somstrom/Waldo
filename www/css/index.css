@@ -1,0 +1,99 @@
+/* #box {
+   position: relative;
+   background-color: #333;
+   color: #FFF;
+   padding: 2rem;
+   text-align: center;
+   margin:10%;
+}
+
+#box-main {
+   width: 80%;
+   margin:auto;
+}
+
+p{
+   margin: 0;
+   padding: 0;
+}
+
+body{
+   margin: 0;
+}
+
+hr{
+   border: none;
+   border-top: 3px solid #FF8500;
+   border-radius: 5px;
+}
+
+a{
+   text-decoration: none;
+} */
+
+
+
+/* new matros */
+body{
+   background: #f5f5f0;
+ }
+
+a{
+   text-decoration: none;
+}
+
+ #box1,#box2,#box3,#box4,#box5,#box6,#box7,#box8,#box9,#box10,#box11,#box12,#box13,#box14,#box15,#box16,#box17,#box18,#box19,#box0 {
+    position: relative;
+    background-color: #FFF;
+    color: #000;
+    padding: 1rem;
+    /* max-width: 300px; */
+    width: 80%;
+    margin: 3% auto;
+    -webkit-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.28);
+     -moz-box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.28);
+     box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.28);
+ }
+
+hr{
+   border: none;
+   border-top: 3px  solid grey;
+}
+
+ p{
+    margin: 0;
+    padding: 0;
+ }
+
+ .title{
+   font-weight: bold;
+   font-size: 1.8rem;
+   color: rgb(24,188,156);
+   margin-bottom: 0.5rem;
+ }
+
+ .address{
+   font-weight: bold;
+   font-size: 1.0rem;
+   color: #000;
+   margin-bottom: 0.3rem;
+ }
+
+ .openingHours-distance{
+   font-size: 0.8rem;
+   color: grey;
+   margin-top: 0.8rem;
+ }
+
+ #flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    /* margin: auto; */
+ }
+
+#result{
+   margin-top: 80px;
+}
+

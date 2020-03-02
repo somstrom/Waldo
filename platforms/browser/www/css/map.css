@@ -1,0 +1,15 @@
+#app {
+    text-align: center;
+}
+
+body, html {
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+html, body, #app, #map {
+    /* top: 70px; */
+    height: 100%;
+    width: 100vw;
+}
